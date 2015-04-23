@@ -34,12 +34,13 @@ public class ShowMoreActivity extends Activity {
 		part2.setText(string2);
 		if (b) {
 			relativeLayout.setBackground(getResources().getDrawable(
-					R.drawable.normalbg));
-			isNormal.setText("正常");
-		} else {
-			relativeLayout.setBackground(getResources().getDrawable(
 					R.drawable.hotbg));
 			isNormal.setText("发烧了");
+		} else {
+			relativeLayout.setBackground(getResources().getDrawable(
+					R.drawable.normalbg));
+			isNormal.setText("正常");
+
 		}
 	}
 
